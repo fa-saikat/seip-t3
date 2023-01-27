@@ -1,0 +1,35 @@
+<!DOCKTYPE html>
+<html>
+    <head>
+        <title>Homework Day 05 </title>
+    </head>
+
+    <body>
+        <h1>Md. Fahim Abrar Saikat</h1>
+        <p>
+            <h3>PERSONAL SUMMARY</h3>
+            I am a <em>senior year</em> <strong>CS student</strong> <i>(City University, Dhaka)</i>. Currently working on developing my problem solving skill, learning <del>new stuff</del> Web Designing under <mark>BASIS SEIP Project</mark> & exploring <u>GNU/Linux</u>. I may not know what <sub>115</sub>Mc<sup>3+</sup> or C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> stands for, but I know what this following <i>script</i> does-
+
+            <pre>
+            #!/bin/sh
+            if printf '%s\n' "$@" | grep -q -- '^(-h|--help)'; then
+                echo "usage: ${0##*/} [file1[ file2[ ...]]" >&2
+                exit
+            fi
+            if [ "$#" -gt 0 ]; then
+                for file in "$@"; do
+                    [ "$file" = "-" ] && file=/dev/stdin
+                    echo ":: $file" >&2
+                    gpg < "$file"
+                done
+            else
+                cat | gpg
+            fi
+            </pre>       
+        </p>
+
+    </body>
+
+    <footer>Day 05 | January 27<sup>th</sup>, 2023</footer>
+</html>
+
