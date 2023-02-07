@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Day 13 Hw</title>
+	</head>
+	<body>
+		<table width="50%" border="0" align="center" cellspacing="0">
+			<tr>
+				<td>
+					<img src="https://seip.basis.org.bd/assets/images/frontend/basis_logo.png" alt="logo" align="right" width="10%">
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+					<input type="button" value="Home">
+					</input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Registration for SEIP Project</h3>
+					<hr/>
+					<p>
+						Felect Course:(In SEIP project one person will be eligible for one course only)
+						<br/>
+						Fisrt PreferenceL:
+						<select>
+							<option>Select course</option>
+							<option value="web_des">Web Design</option>
+							<option value="web_des">Web Developing</option>
+							<option value="ds_ml">Data Science & ML</option>
+							<option value="anim">Animation</option>
+							<option value="PHP">PHP</option>
+							<option value="dm">Digital Marketing</option>
+						</select>
+					</p>
+					<table border="0" cellspacing="5">
+						<tr>
+							<td colspan="2">
+								<label for="name">Name:</label><br/>
+								<input type="text" name="name">
+							</td>
+							
+						</tr>
+						<tr>
+							<td width="25%">
+								<label for="name">Father Name:</label><br/>
+								<input type="text" name="father_name">
+							</td>
+							<td width="25%">
+								<label for="name">Mother Name:</label><br/>
+								<input type="text" name="mother_name">
+							</td>
+							<td width="25%">
+								Gender: <br/>
+								<select>
+									<option>Select Gender</option>
+									<option value="male">Male</option>
+									<option value="female">Female</option>
+									
+								</select>
+							</td>
+							<td width="25%"></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<label for="name">National ID:</label><br/>
+								<input type="number" name="nid">
+							</td>
+						</tr>
+						<tr>
+							<td width="25%">
+								Date of Birth: <br/>
+								<input type="date">
+							</td>
+							<td width="25%">
+								Religion: <br/>
+								<select>
+									<option>Select Religion</option>
+									<option value="i">Islam</option>
+									<option value="h">Hinduism</option>
+									<option value="b">Buddhism</option>
+									<option value="c">Christianity</option>
+								</select>
+							</td>
+							<td width="25%">
+								Ethnic Group: <br/>
+								<select>
+									<option>Select Ethnic Group</option>
+									<option value="bd_mus">Bengali Muslims</option>
+									<option value="bd_hin">Bengali Hindus</option>
+									<option value="bd_pep">Bengali People</option>
+									<option value="unknown">Other</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" >
+								<label for="name">Mobile:</label><br/>
+								<input type="number" name="phone">
+							</td>
+							<td colspan="2" width="50%">
+								<label for="name">Email:</label><br/>
+								<input type="mail" name="mail">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="1">
+								Is Employed:
+								<input name="y" type="radio">Yes
+								<input name="n" type="radio">No
+							</td>
+							<td colspan="3" width="100%">
+								<label for="name">Monthly Income:</label><br/>
+								<input type="text" name="income">
+							</td>
+						</tr>
+					</table>
+					<h2>Permanent Address</h2> <hr/>
+					<table width="100%" border="0" cellspacing="5">
+						<tr>
+							<td colspan="2">
+								<label for="name">Address:</label><br/>
+								<input type="text" name="address">
+							</td>
+						</tr>
+						<tr>
+							<td width="25%">
+								<label for="name">City:</label><br/>
+								<input type="text" name="per_city">
+							</td>
+							<td width="25%">
+								<label for="name">Postcode:</label><br/>
+								<input type="text" name="per_pstcode">
+							</td>
+						</tr>
+						<tr>
+							<td width="25%">
+								Division: <br/>
+								<select>
+									<option value="Dhaka">Dhaka</option>
+									<option value="Chittagong">Chittagong</option>
+									<option value="Rangpur">Rangpur</option>
+									<option value="Rajshahi">Rajshahi</option>
+									<option value="Khulna">Khulna</option>
+									<option value="Barisal">Barisal</option>
+									<option value="Sylhet">Sylhet</option>
+								</select>
+							</td>
+							<td width="25%">
+								<label for="name">District:</label><br/>
+								<select>
+									<option value="Dhaka">Dhaka</option>
+									<option value="Narayanganj">Narayanganj</option>
+									<option value="Gazipur">Gazipur</option>
+									<option value="Gopalganj">Gopalganj</option>
+									<option value="Kishoreganj">Kishoreganj</option>
+									<option value="Manikganj">Manikganj</option>
+									<!-- Add more options for other districts -->
+								</select>
+							</td>
+							<td width="25%">
+								<label for="name">Sub-District:</label><br/>
+								<select>
+									<option>Select Sub-District</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<h2>Present Address</h2> <hr/>
+					<table border="0" cellspacing="5">
+						<tr>
+							<td colspan="2">
+								<label for="name">Address:</label><br/>
+								<input type="text" name="pre_address">
+							</td>
+						</tr>
+						<tr>
+							<td width="25%">
+								<label for="name">City:</label><br/>
+								<input type="text" name="pre_city">
+							</td>
+							<td width="25%">
+								<label for="name">Postcode:</label><br/>
+								<input type="text" name="pre_pstcode">
+							</td>
+						</tr>
+						<tr>
+							<td width="25%">
+								<label for="name">Division:</label><br/>
+								<select>
+									<option value="Dhaka">Dhaka</option>
+									<option value="Chittagong">Chittagong</option>
+									<option value="Rangpur">Rangpur</option>
+									<option value="Rajshahi">Rajshahi</option>
+									<option value="Khulna">Khulna</option>
+									<option value="Barisal">Barisal</option>
+									<option value="Sylhet">Sylhet</option>
+								</select>
+							</td>
+							<td width="25%">
+								<label for="name">District:</label><br/>
+								<select>
+									<option value="Dhaka">Dhaka</option>
+									<option value="Narayanganj">Narayanganj</option>
+									<option value="Gazipur">Gazipur</option>
+									<option value="Gopalganj">Gopalganj</option>
+									<option value="Kishoreganj">Kishoreganj</option>
+									<option value="Manikganj">Manikganj</option>
+									<!-- Add more options for other districts -->
+								</select>
+							</td>
+							<td width="25%">
+								<label for="name">Sub-District:</label><br/>
+								<select>
+									<option>Select Sub-District</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<h2>Highest Academic Achievement</h2><hr/>
+					<table border="0" cellspacing="5">
+						<tr>
+							<td width="25%">
+								Level of Education: <br/>
+								<select>
+									<option value="Primary">Primary</option>
+									<option value="Secondary">Secondary</option>
+									<option value="Higher Secondary">Higher Secondary</option>
+									<option value="Graduate">Graduate</option>
+									<option value="Post Graduate">Post Graduate</option>
+								</select>
+							</td>
+							<td width="25%">
+								<label for="school">Institute:</label><br/>
+								<input type="text" name="school">
+							</td>
+						</tr>
+						<tr>
+							<td width="25%">
+								<label for="sub">Subject:</label><br/>
+								<input type="text" name="sub">
+							</td>
+							<td width="25%">
+								<label for="sub">Year:</label><br/>
+								<input type="date">
+							</td>
+						</tr>
+					</table>
+					<h2>Photo</h2><hr>
+					<input type="file">
+					<p>mage size should be 300x300 (Max 100KB) in JPG Format </p>
+					<table border="0" cellspacing="5">
+						<tr>
+							<td colspan="1">
+								<label for="code">Type the code:</label><br/>
+								<input type="text" name="code">
+							</td>
+							<td colspan="3">
+								<img src="https://seip.basis.org.bd/captcha/1675773638.9312.jpg" alt="img">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"></td>
+							<td colspan="2">
+								<input type="button" value="Reset"></input>
+								<input type="button" value="Save"></input>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Day 13 CW</title>
+	</head>
+	<body>
+		<!-- HTML Form -->
+		<h2>Sample Registration Form</h2>
+		<form>
+			First Name: <input type="text">
+			<br/><br/>
+			Last Name: <input type="text">
+			<br/><br/>
+			Phone: <input type="number">
+			<br/><br/>
+			Email: <input type="mail">
+			<br/><br/>
+			Password: <input type="password">
+			<br/><br/>
+			Image: <input type="file">
+			<br/><br/>
+			<input type="button" value="Submit"></input>
+			<br/><br/>
+			<select>
+				<option>Dept</option>
+				<option value="EEE">EEE</option>
+				<option value="CSE">CSE</option>
+				<option value="LLB">LLB</option>
+				<option value="ENG">ENG</option>
+			</select>
+			<br/><br/>
+			<!-- DataList -->
+			<input type="text" list="DL1">
+			<datalist id="DL1">
+			<option value="EEE">EEE</option>
+			<option value="CSE">CSE</option>
+			<option value="LLB">LLB</option>
+			<option value="ENG">ENG</option>
+			</datalist>
+			<br/><br/>
+			<input type="text" list="DL2">
+			<datalist id="DL2">
+			<option value="BN">BN</option>
+			<option value="EN">EN</option>
+			<option value="GR">GR</option>
+			<option value="FR">FR</option>
+			</datalist>
+			<br/><br/>
+			
+			<!-- Radio Button -->
+			Gender: <input name="gender" type="radio">M
+			<input name="gender" type="radio">F
+			<input name="gender" type="radio">O
+			<br/><br/>
+			<!-- CheckBox Multiple -->
+			List: <input type="checkbox">X
+			<input type="checkbox">Y
+			<input type="checkbox">Z
+			<br/><br/>
+			<!-- Label -->
+			<label for="fname">First Name: </label>
+			<input type="text" id="fname" name="fname">
+			<br/><br/>
+			<label>
+				Last Name: <input type="text">
+			</label>
+			<br/><br/>
+			<!-- Place Holder -->
+			<label for="fname">First Name: </label>
+			<input type="text" id="fname" name="fname" placeholder="Insert Your Name">
+			<br/><br/>
+		</form>
+	</body>
+</html>
