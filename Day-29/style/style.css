@@ -1,0 +1,139 @@
+/* fonts start */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;400;700&display=swap");
+
+/*
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/* fonts end */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+}
+
+.top-header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+  padding: 0 10%;
+
+  border-bottom: 1px solid #000;
+}
+
+.social {
+  padding: 0 6px;
+}
+
+.bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 10%;
+
+  border-bottom: 1px solid #000;
+}
+
+.nav-items {
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.left-text {
+  font-size: 48px;
+  color: #13c5dd;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0;
+}
+
+.nav-items-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.nav-items-text:hover {
+  color: #13c5dd;
+  border-bottom: 5px solid #13c5dd;
+  padding-bottom: 18px;
+}
+
+.banner {
+  height: 520px;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+
+  padding: 4% 0;
+}
+.banner-content {
+  width: 65%;
+  padding: 0 10%;
+}
+
+.bc-header {
+  margin-bottom: 15px;
+}
+
+.bch-text {
+  color: #13c5dd;
+  border-bottom: 5px solid #ffffff70;
+  display: inline-block;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+.bct-text {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 80px;
+}
+
+.bc-button {
+  display: flex;
+  padding-top: 30px;
+}
+
+.button-left,
+.button-right {
+  padding: 20px 45px;
+  border-radius: 30px;
+  border: none;
+  margin: 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.button-left {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 700;
+}
+.button-right {
+  background-color: #00000000;
+  border: 1px solid white;
+  color: #ffffff;
+}
