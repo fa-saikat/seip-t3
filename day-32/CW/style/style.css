@@ -126,7 +126,7 @@ a {
 
 .service {
     width: 30%;
-    border: 1px solid #80808020;
+    border: 0.5px solid #80808008;
     padding: 35px;
 }
 
@@ -155,4 +155,21 @@ a {
     font-weight: 400;
 
     line-height: 27px;
+}
+
+.service:nth-child(even) span {
+    color: #917aeb;
+    background-color: #e9e4fb;
+}
+
+.service span {
+    display: inline-block;
+
+    color: #51B56D;
+    background-color: #dcf0e2;
+
+    border-radius: 8px;
+    padding: 23px 19px;
+
+    font-size: 24px;
 }
