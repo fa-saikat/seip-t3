@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+/* font-family: 'Rubik', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 16px 0;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links ul li {
+    padding: 15px;
+}
+
+.nav-links ul li a {
+    color: #040404;
+    font-size: 15px;
+    font-weight: 501;
+}
+
+.button {
+    padding: 13px 28px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 15px;
+    font-weight: 501;
+}
+
+.button-left{
+    color: #3F9457;
+    background-color: #e0f2e5;
+}
+.button-right{
+    color: #ffffff;
+    background-color: #51B56D;
+
+    margin-left: 16px;
+}
+
+
+/* banner */
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 90px 0;
+}
+
+.banner div {
+    width: 40%;
+    margin: 0 48px;
+}
+
+
+.banner-text {
+    padding: 0 12px;
+}
+
+.banner h1 {
+    font-size: 52px;
+    font-weight: 700;
+
+    margin-bottom: 24px;
+}
+
+.banner p {
+    font-size: 15px;
+    font-weight: 400;
+
+    color: #888888;
+    margin-bottom: 24px;
+}
+
+.banner img {
+    width: 95%;
+}
+
+.banner button {
+    font-size: 15px;
+    font-weight: 501;
+
+    padding: 13px 28px;
+    border-radius: 10px;
+    border: none;
+
+    color: #ffffff;
+    background-color: #3F9457;
+}
+
+/* services */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 90px 0;
+
+    background-color: #fbfbfb;
+}
+
+.service {
+    width: 30%;
+    border: 1px solid #80808020;
+    padding: 35px;
+}
+
+.para-top,
+.para-bottom {
+    margin-bottom: 16px;
+}
+
+.para-top   {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+
+    color: #3F9457;
+}
+
+.service h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.para-bottom {
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 27px;
+}
