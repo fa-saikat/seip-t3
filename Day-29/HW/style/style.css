@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;400;700&display=swap");
+
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+header {
+  width: 100%;
+}
+
+/* headercommon */
+.top-header,
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-header li,
+.bottom-header li {
+  display: inline-block;
+}
+
+/* topheader */
+.top-header {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+
+  padding: 8px 15%;
+  border-bottom: 1px solid gray;
+}
+
+.top-header ul li {
+  padding-left: 16px;
+}
+
+.top-header a,
+.top-header-text {
+  color: gray;
+}
+
+/* bottomheader */
+.bottom-header {
+  padding: 22px 15%;
+  position: relative;
+}
+
+.bottom-header-logo-text {
+  color: #13c5dd;
+
+  text-transform: uppercase;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.bottom-header-nav-text {
+}
+
+.selected {
+  border-bottom: 5px solid #13c5dd;
+}
+
+.bottom-header-nav-text:hover {
+  border-bottom: 5px solid #13c5dd;
+}
+
+.bottom-header-nav-text {
+  /* padding-left: 30px; */
+}
+.right ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #000000;
+
+  padding-bottom: 33px;
+
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+
+  transition: 200ms;
+}
+
+/* banner */
+.banner {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: top;
+
+  padding: 6% 15%;
+}
+
+.banner-text h5 {
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 5px solid #ffffff90;
+
+  color: #13c5dd;
+  margin-bottom: 8px;
+
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.banner-text h1 {
+  text-transform: capitalize;
+
+  color: #ffffff;
+  margin-right: 35%;
+  margin-bottom: 24px;
+
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.button {
+  text-transform: capitalize;
+
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+
+  margin: 0 8px;
+  padding: 19px 48px;
+
+  border-radius: 40px;
+  border: 1px solid #ffffff;
+}
+
+.button-left {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.button-right {
+  background-color: transparent;
+  color: #ffffff;
+  transition: 300ms;
+}
+
+.button-right:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
