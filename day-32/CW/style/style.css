@@ -73,12 +73,12 @@ a {
 .banner {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   padding: 90px 0;
 }
 
 .banner div {
-  width: 36%;
+  width: 40%;
   margin: 0 40px;
 }
 
@@ -88,11 +88,11 @@ a {
 }
 
 .banner h1 {
-  font-size: 52px;
+  font-size: 50px;
   font-weight: 700;
 
-  padding-right: 65px;
-  margin-top: 90px;
+  /* padding-right: 65px; */
+  /* margin-top: 90px; */
   margin-bottom: 24px;
 }
 
@@ -202,3 +202,124 @@ a {
 
   transform: scale(1.01);
 }
+
+/* about */
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 90px 0;
+  }
+  
+  .about div {
+    width: 40%;
+    margin: 0 40px;
+  }
+  
+  .about-text {
+    padding: 0 12px;
+    margin-right: 48px;
+  }
+  
+  .about h1 {
+    font-size: 50px;
+    font-weight: 700;
+  
+    /* padding-right: 65px; */
+    /* margin-top: 90px; */
+    margin-bottom: 24px;
+  }
+  
+  .about p {
+    font-size: 15px;
+    font-weight: 400;
+  
+    padding-right: 65px;
+    color: #888888;
+    margin-bottom: 24px;
+  }
+
+  .about-para-top {
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+    font-weight: 700  !important;
+    line-height: 27px  !important;
+  
+    color: #3f9457 !important; 
+  
+    margin-bottom: 24px !important;
+  }
+  .about img {
+    width: 95%;
+    margin-left: 48px;
+  }
+  
+  .about button {
+    font-size: 15px;
+    font-weight: 501;
+  
+    padding: 13px 28px;
+    border-radius: 10px;
+    border: none;
+  
+    color: #ffffff;
+    background-color: #51b56d;
+  
+    transition: 150ms ease-in;
+  }
+  
+  .about button:hover {
+    transform: perspective(1px) translateZ(0);
+    background-color: #3f9457;
+  }
+
+  /* difference */
+  .diff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 90px 0;
+  }
+  
+  .diff div {
+    width: 40%;
+    margin: 0 40px;
+  }
+  
+  .diff-text {
+    padding: 0 12px;
+    margin-right: 48px;
+  }
+  
+  .diff h1 {
+    font-size: 50px;
+    font-weight: 700;
+  
+    /* padding-right: 65px; */
+    /* margin-top: 90px; */
+    margin-bottom: 24px;
+  }
+  
+  .diff p {
+    font-size: 15px;
+    font-weight: 400;
+  
+    padding-right: 65px;
+    color: #888888;
+    margin-bottom: 24px;
+  }
+
+  .diff-para-top {
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+    font-weight: 700  !important;
+    line-height: 27px  !important;
+  
+    color: #3f9457 !important; 
+  
+    margin-bottom: 24px !important;
+  }
+  .about img {
+    width: 95%;
+    margin-left: 48px;
+  }
